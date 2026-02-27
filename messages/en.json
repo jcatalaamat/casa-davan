@@ -1,0 +1,227 @@
+{
+  "metadata": {
+    "title": "Casa DaVan | Bistro & Boutique",
+    "description": "We are mystical souls. Bistro and boutique on the Oaxacan coast of Mexico."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "locations": "Locations",
+    "contact": "Contact",
+    "menu": "Menu",
+    "gallery": "Gallery",
+    "workspace": "Workspace",
+    "shop": "Shop",
+    "collections": "Collections",
+    "cart": "Cart",
+    "sizeGuide": "Size Guide",
+    "ourCraft": "Our Craft",
+    "bistro": "Bistro",
+    "boutique": "Boutique"
+  },
+  "common": {
+    "readMore": "Read more",
+    "viewAll": "View all",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "backToHome": "Back to home",
+    "notFound": "Page not found",
+    "notFoundDescription": "Sorry, the page you're looking for doesn't exist.",
+    "currency": "MXN",
+    "addToCart": "Add to cart",
+    "removeFromCart": "Remove from cart",
+    "checkout": "Checkout",
+    "continueShopping": "Continue shopping",
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "quantity": "Quantity",
+    "size": "Size",
+    "outOfStock": "Out of stock",
+    "inStock": "In stock",
+    "send": "Send",
+    "subscribe": "Subscribe",
+    "close": "Close",
+    "open": "Open",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "all": "All",
+    "new": "New",
+    "sale": "Sale"
+  },
+  "home": {
+    "hero": {
+      "tagline": "We are mystical souls",
+      "subtitle": "Bistro & Boutique on the Oaxacan coast",
+      "ctaBistro": "Explore Menu",
+      "ctaBoutique": "Discover Collection"
+    },
+    "brandStory": {
+      "title": "Where the soul meets",
+      "description": "Casa DaVan is born from the connection between earth and spirit. A space where conscious gastronomy meets ethical fashion, in the heart of the Oaxacan coast."
+    },
+    "businesses": {
+      "bistroTitle": "Casa DaVan Bistro",
+      "bistroDescription": "Poke bowls, smoothies, specialty coffee, artisan pizzas and more. The only Starlink WiFi in Mazunte.",
+      "boutiqueTitle": "DaVan Mystique Boutique",
+      "boutiqueDescription": "Ethical clothing made in India with natural dyes. Designs inspired by nature and spirituality."
+    },
+    "testimonials": {
+      "title": "What our visitors say"
+    },
+    "newsletter": {
+      "title": "Join our community",
+      "description": "Get updates on events, new dishes and exclusive collections.",
+      "placeholder": "Your email address",
+      "success": "Thanks for subscribing!",
+      "error": "There was an error. Please try again."
+    },
+    "instagram": {
+      "title": "Follow us on Instagram",
+      "bistro": "@casadavanmazunte",
+      "boutique": "@davan_mystique"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "philosophy": {
+      "title": "Our Philosophy",
+      "description": "We believe in living in harmony with nature, celebrating the beauty of artisanal and conscious living."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To create experiences that nourish the body, soul and community, honoring local traditions and promoting sustainable practices."
+    },
+    "team": {
+      "title": "Our Team"
+    }
+  },
+  "locations": {
+    "title": "Locations",
+    "subtitle": "Find us at three unique destinations",
+    "mazunte": "Mazunte",
+    "zipolite": "Zipolite",
+    "cdmx": "Roma Norte, CDMX",
+    "hours": "Hours",
+    "address": "Address",
+    "getDirections": "Get directions",
+    "features": "Features"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Have a question? Write to us.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send message",
+      "success": "Message sent! We'll get back to you soon.",
+      "error": "There was an error sending the message."
+    },
+    "whatsapp": "Message us on WhatsApp"
+  },
+  "menu": {
+    "title": "Menu",
+    "subtitle": "Conscious gastronomy with fresh, local ingredients",
+    "dietary": {
+      "vegan": "Vegan",
+      "vegetarian": "Vegetarian",
+      "glutenFree": "Gluten free",
+      "organic": "Organic"
+    }
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Moments at Casa DaVan",
+    "categories": {
+      "all": "All",
+      "food": "Food",
+      "drinks": "Drinks",
+      "atmosphere": "Atmosphere"
+    }
+  },
+  "workspace": {
+    "title": "Workspace",
+    "subtitle": "The best place to work in Mazunte",
+    "features": {
+      "wifi": "Starlink WiFi",
+      "wifiDescription": "The only high-speed Starlink internet in Mazunte. Perfect for video calls and remote work.",
+      "hours": "Extended Hours",
+      "hoursDescription": "Open from 8:30 AM to 10:30 PM. Work early or stay late.",
+      "food": "Food & Drinks",
+      "foodDescription": "Specialty coffee, smoothies, poke bowls and more to keep you energized.",
+      "atmosphere": "Inspiring Atmosphere",
+      "atmosphereDescription": "Bohemian, peaceful space surrounded by nature, perfect for creativity."
+    }
+  },
+  "shop": {
+    "title": "Shop",
+    "subtitle": "Ethical clothing with soul",
+    "filters": {
+      "category": "Category",
+      "collection": "Collection",
+      "priceRange": "Price range",
+      "sortBy": "Sort by",
+      "newest": "Newest",
+      "priceLowHigh": "Price: low to high",
+      "priceHighLow": "Price: high to low",
+      "featured": "Featured"
+    },
+    "noProducts": "No products found."
+  },
+  "product": {
+    "addToCart": "Add to cart",
+    "selectSize": "Select a size",
+    "materials": "Materials",
+    "careInstructions": "Care instructions",
+    "sizeGuide": "Size guide",
+    "relatedProducts": "You may also like",
+    "description": "Description"
+  },
+  "collections": {
+    "title": "Collections",
+    "subtitle": "Explore our curated collections",
+    "viewCollection": "View collection"
+  },
+  "cart": {
+    "title": "Cart",
+    "empty": "Your cart is empty",
+    "emptyDescription": "Discover our collection and find pieces that speak to your soul.",
+    "continueShopping": "Continue shopping",
+    "checkout": "Proceed to checkout",
+    "remove": "Remove",
+    "updateQuantity": "Update quantity"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "redirecting": "Redirecting to payment gateway...",
+    "success": {
+      "title": "Payment successful!",
+      "description": "Your order has been confirmed. You'll receive an email with the details.",
+      "orderNumber": "Order number",
+      "backToShop": "Back to shop"
+    }
+  },
+  "sizeGuide": {
+    "title": "Size Guide",
+    "subtitle": "Find your perfect fit",
+    "measurements": "Measurements in centimeters"
+  },
+  "ourCraft": {
+    "title": "Our Craft",
+    "subtitle": "Ethical fashion made with love",
+    "story": "Each DaVan Mystique garment is artisanally crafted in India, using natural dyes and sustainable processes that honor both the artisans and the environment."
+  },
+  "footer": {
+    "bistro": "Bistro",
+    "boutique": "Boutique",
+    "company": "Company",
+    "legal": "Legal",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "shipping": "Shipping",
+    "rights": "All rights reserved",
+    "tagline": "We are mystical souls"
+  }
+}

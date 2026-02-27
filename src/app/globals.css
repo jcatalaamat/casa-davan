@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+@theme {
+  --color-terracotta: #C2703E;
+  --color-terracotta-dark: #A85A2A;
+  --color-terracotta-light: #D4956B;
+  --color-sage: #9CAF88;
+  --color-sage-light: #C5D4B8;
+  --color-sage-dark: #7A9168;
+  --color-cream: #FAF6F0;
+  --color-cream-dark: #F0E8DB;
+  --color-gold: #C9A961;
+  --color-gold-light: #D9C48A;
+  --color-forest: #2D4A3E;
+  --color-charcoal: #2C2C2C;
+  --color-sand: #E8DDD0;
+  --color-clay: #C4A484;
+
+  --font-heading: "Cormorant Garamond", serif;
+  --font-body: "DM Sans", sans-serif;
+  --font-accent: "Caveat", cursive;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: var(--font-body);
+    color: var(--color-charcoal);
+    background-color: var(--color-cream);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: 600;
+  }
+
+  ::selection {
+    background-color: var(--color-terracotta-light);
+    color: var(--color-cream);
+  }
+}
+
+@layer components {
+  .container-wide {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .container-narrow {
+    @apply mx-auto max-w-4xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 sm:py-20 lg:py-24;
+  }
+
+  .heading-1 {
+    @apply text-4xl sm:text-5xl lg:text-6xl font-heading font-semibold tracking-tight;
+  }
+
+  .heading-2 {
+    @apply text-3xl sm:text-4xl lg:text-5xl font-heading font-semibold tracking-tight;
+  }
+
+  .heading-3 {
+    @apply text-2xl sm:text-3xl font-heading font-semibold;
+  }
+
+  .heading-4 {
+    @apply text-xl sm:text-2xl font-heading font-semibold;
+  }
+
+  .text-accent {
+    font-family: var(--font-accent);
+  }
+
+  .prose-davan {
+    @apply text-charcoal/80 leading-relaxed;
+  }
+
+  .prose-davan h2 {
+    @apply text-2xl sm:text-3xl font-heading font-semibold text-charcoal mb-4 mt-8;
+  }
+
+  .prose-davan p {
+    @apply mb-4;
+  }
+
+  .prose-davan a {
+    @apply text-terracotta underline underline-offset-2 hover:text-terracotta-dark transition-colors;
+  }
+}
+
+@layer utilities {
+  .bg-gradient-earthy {
+    background: linear-gradient(135deg, var(--color-cream) 0%, var(--color-sand) 100%);
+  }
+
+  .bg-gradient-forest {
+    background: linear-gradient(135deg, var(--color-forest) 0%, var(--color-sage-dark) 100%);
+  }
+
+  .text-gradient-gold {
+    background: linear-gradient(135deg, var(--color-gold) 0%, var(--color-terracotta) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
